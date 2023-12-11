@@ -7,10 +7,9 @@ describe('index.js', function () {
     });
   });
 
-  describe('Array functions', function () {
+  describe('Index Module', function () {
     beforeEach(function () {
       cats.length = 0;
-
       cats.push('Milo', 'Otis', 'Garfield');
     });
 
